@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles/styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Clarity+City:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header> 
+        <img src="assets/pediaconnectlogo.png" alt="PediaConnect">
+        <h1>Dashboard</h1>
+        <button popovertarget="menu-popover">☰</button>
+    </header>
+
+    <div popover id="menu-popover">
+    <nav>
+        <button popovertarget="opp-popover">
+            <img src="assets/oppertuneties.png" alt="speaker">
+            Opportunities
+        </button>
+        <a href="#network">Events & Conventions</a>
+        <a href="#calendar">Colleagues</a>
+    </nav>
+    </div>  
+
+    <main>
+        <center> 
+         <p>Welcome back Sam!</p>
+        </center>
+
+        <div class="button-grid">
+            <div class="klopje-pink">Find colleagues</div>
+            <div class="knopje-turtle">Browse projects & Question</div>
+            <div class="knopje-blauw">Events & connections</div>
+        </div>
+<hr>
+
+        <section>
+            <h3>Recommended for you</h3>
+            <p>Projects, questions and colleagues selected based on your preferences</p>
+            <button id="showallcontent">show all content &#x25BC;</button>
+            <article>
+                <h3>From Data to Decisions: Improving Clinical Insight Through Pediatric care</h3>
+                <p >Anthony Martin<br>Medical researcher</p>
+                <details>
+                <summary>(Outcome Assessment +3)</summary>
+                <dl>
+                    <dt>MeSH terms:</dt>
+                    <dd>Outcome Assessment (Health Care)</dd>
+                    <dd>Data Interpretation</dd>
+                    <dd>Statistical</dd>
+                </dl>
+                </details>
+                <footer class="Footerproject">Project    Internship</footer>
+            </article>
+
+            <article>
+                <h3>Elise Thompson</h3>
+                <p>Doctor</p>
+                <p>Neurology, Cognitive disorders<br>Rotterdam, Erasmus MC</p>
+                <details>
+                <summary>Looking for research team +1</summary>
+                <dl>
+                    <dt>Mesh terms:</dt>
+                    <dd>Looking for research team</dd>
+                    <dd>Open for Collaboration in general</dd>
+                </dl>
+                </details>
+            </article>
+
+
+            <article>
+                <h3>How Do You Approach Complex Clinical Decisions in Pediatrics?</h3>
+                <p>Open question</p>
+                <p>Anna Hendriks<br>Medical intern</p>
+                <p>3 Comments</p>
+                <button>Clinical Decision Making</button> <button>Patient Care</button>
+            </article>
+
+            <article>
+                <p>Webinar</p>
+                <p>28/01 Mar<br>Location: Online<br>Time: 16:00 - 17:00<br>Organiser: PyrK</p>
+                <h3>Webinar: Together we stand up against burnout in pediatric care</h3>
+                <button>Wellbeing</button> <button>Online event</button>
+            </article>
+            
+            <article>
+                <p>Amara Chinedu Diallo<br>Paediatric nurse</p>
+                <blockquote>"Patient health starts where good communication between colleagues begins."</blockquote>
+                <button>Collaboration</button> <button>+2</button>
+            </article>
+
+            <p>Tami Nikolaus<br>Doctor</p>
+            <p>Neurology, Brain development<br>Utrecht, UMC</p>
+            <button>Open to mentoring</button> <button>+2</button>
+        </section>
+    </main>
+</body>
+</html>
